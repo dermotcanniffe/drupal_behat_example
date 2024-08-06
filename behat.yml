@@ -1,8 +1,4 @@
 default:
-    formatters:
-        pretty: true
-  autoload:
-    '': %paths.base%/example_tests/
   suites:
     default:
       paths:
