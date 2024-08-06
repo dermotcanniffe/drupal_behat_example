@@ -1,9 +1,11 @@
 default:
+    formatters:
+        pretty: true
   autoload:
-    '': %paths.base%/../
+    '': %paths.base%/example_tests/
   suites:
     default:
       paths:
-        - %paths.base%/../example_tests
+        - %paths.base%/example_tests
     contexts:
-        - FeatureContext
+        - [FeatureContext]
