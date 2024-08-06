@@ -1,7 +1,4 @@
 default:
   suites:
-    default:
-      paths:
-        - %paths.base%/example_tests
     contexts:
         - [FeatureContext]
